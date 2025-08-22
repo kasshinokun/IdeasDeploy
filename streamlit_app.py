@@ -61,7 +61,7 @@ if section == "Introdução":
     </div>
     """, unsafe_allow_html=True)
     
-   st.markdown("""
+    st.markdown("""
     <div class="highlight">
         <h3 style="color: #000000;">Sumário Executivo</h3>
         <p style="color: #000000;">Python é uma linguagem de programação de alto nível, interpretada, de propósito geral e multiparadigma. 
