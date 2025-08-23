@@ -1506,7 +1506,7 @@ with col3:
     if (go_page > 0 and 
         go_page < len(sections)-1 
         and ((go_page-1)!=st.session_state.page_index)):
-        if st.button(f"Ir ➡️{go_page}"):
+        if st.button(f"Ir ➡️ para página {go_page}"):
             st.session_state.page_index=go_page-1
             st.rerun()
 with col4:
