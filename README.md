@@ -3,14 +3,22 @@ Este repositório poderá mudar com o tempo, mas sempre será citado o repositó
 
 Sua finalidade destina-se a rodar temporariamente projetos que o Streamlit.io dê erro no deploy.
 
+### Acesso ao projeto ativo
+
+[Link no Streamlit.io do projeto atual](https://ideasdeploy.streamlit.app/)
+
 ### Projeto Ativo
 Projeto 1 em ```Projetos```
 
 
-## Projetos:
+### Projetos:
 
 1.Apresentação do trabalho prático teórico de Linguagens de Programação da graduação em <br>Engenharia da Computação e Ciência da Computação pela PUC Minas - Coração Eucarístico <br>desenvolvido por:<br>
 [Gabriel da Silva Cassino](https://github.com/kasshinokun)
 <br>[Welbert Junio Afonso de Almeida](https://github.com/welbertalmeida)
 <br>Criado em 22/08/2025
 <br>rev.3 22-08-2025
+<br>
+<br>Pasta de Origem:[Q3_Q4_2025_Public/7_Semestre/LP](https://github.com/kasshinokun/Q3_Q4_2025_Public/tree/main/7_Semestre/LP)
+
+
