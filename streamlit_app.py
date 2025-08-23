@@ -1499,13 +1499,13 @@ with col2:
 
 with col3:
     go_page=st.number_input("N° página",
-                            value=st.session_state.page_index,
+                            value=st.session_state.page_index+1,
                            min_value=1,
                            max_value=27,
                            step=1)
     if (go_page > 0 and 
         go_page < len(sections)-1 
-        and (go_page!=st.session_state.page_index)):
+        and ((go_page-1)!=st.session_state.page_index)):
         if st.button(f"Ir ➡️{go_page}"):
             st.session_state.page_index=go_page-1
             st.rerun()
