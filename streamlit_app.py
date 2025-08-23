@@ -1475,9 +1475,10 @@ sections = [
 if "page_index" not in st.session_state:
     st.session_state.page_index = 0
     
-# teste
-set_title=[topic for topic in sections["título"]]
-options = st.sidebar.selectbox("Tópicos",set_title)
+# teste ------> há erros se ativo
+# set_title=[topic for topic in sections["título"]]
+# options = st.sidebar.selectbox("Tópicos",set_title)
+#-------------> trecho inativo por enquanto 
 
 # Renderiza conteúdo da seção atual
 current_section = sections[st.session_state.page_index]
