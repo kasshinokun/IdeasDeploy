@@ -1484,8 +1484,9 @@ if "page_index" not in st.session_state:
 current_section = sections[st.session_state.page_index]
 st.markdown(current_section["texto"], unsafe_allow_html=True)
 
+#-----------------------------------------------------> Teste de Interface 
 # --- Rodapé com navegação ---
-col1, col2, col3 = st.columns([1, 2, 1])
+col1, col2, col3, col4 = st.columns([1, 2, 2, 1])
 
 with col1:
     if st.session_state.page_index > 0:
@@ -1497,10 +1498,23 @@ with col2:
     st.write(f"📄 Página {st.session_state.page_index+1} de {len(sections)}")
 
 with col3:
+    go_page=st.number_input("N° página",
+                            value=st.session_state.page_index,
+                           min_value=1,
+                           max_value=27,
+                           step=1)
+    if (go_page > 0 and 
+        go_page < len(sections)-1 
+        and (go_page!=st.session_state.page_index)):
+        if st.button(f"Ir ➡️{go_page}"):
+            st.session_state.page_index=go_page-1
+            st.rerun()
+with col4:
     if st.session_state.page_index < len(sections)-1:
         if st.button("Próximo ➡️"):
             st.session_state.page_index += 1
             st.rerun()
+#-----------------------------------------------------> Teste de Interface 
 
 # Rodapé final
 st.markdown("""
