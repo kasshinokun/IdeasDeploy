@@ -1504,7 +1504,7 @@ with col3:
                            max_value=27,
                            step=1)
     if ((go_page) > 0 and 
-        (go_page)< len(sections)
+        (go_page)< (len(sections)+1)
         and ((go_page-1)!=st.session_state.page_index)):
         if st.button(f"Ir ➡️ para página {go_page}"):
             st.session_state.page_index=(go_page-1)
