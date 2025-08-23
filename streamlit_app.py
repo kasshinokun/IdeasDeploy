@@ -57,9 +57,13 @@ if section == "Introdução":
     
     st.markdown("""
     <div style="text-align: center; margin-bottom: 2rem;">
-        <strong>Data:</strong> 22 de Agosto de 2025 | 
+        <strong>Data:</strong> 22 de Agosto de 2025 
+        <br>
         <strong>Status:</strong>Em Desenvolvimento
+        <br>
         <strong>Criado e adaptado por:</strong> Gabriel da Silva Cassino 
+        <br>
+        <strong>Parceria e contribuição de código</strong>Welbert Junio Afonso de Almeida 
     </div>
     """, unsafe_allow_html=True)
     
